@@ -15,9 +15,12 @@ public class AddTwoNumbers {
 
         // Add the two numbers
         int sum = number1 + number2;
+        int product = number1*number2;
 
         // Display the result
         System.out.println("The sum of " + number1 + " and " + number2 + " is " + sum);
+        System.out.println("The product " + number1 + " and " + number2 + " is " + product);
+        
 
         // Close the scanner
         scanner.close();
