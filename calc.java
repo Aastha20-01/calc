@@ -21,6 +21,12 @@ public class AddTwoNumbers {
         System.out.println("The sum of " + number1 + " and " + number2 + " is " + sum);
 	System.out .println("the difference" +" is "+sub);
 
+        int product = number1*number2;
+
+        
+        System.out.println("The product " + number1 + " and " + number2 + " is " + product);
+     
+
         // Close the scanner
         scanner.close();
     }
