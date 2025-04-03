@@ -15,9 +15,11 @@ public class AddTwoNumbers {
 
         // Add the two numbers
         int sum = number1 + number2;
+	int sub= number1 -number 2;
 
         // Display the result
         System.out.println("The sum of " + number1 + " and " + number2 + " is " + sum);
+	System.out .println("the difference" +" is "+sub);
 
         // Close the scanner
         scanner.close();
